@@ -1,6 +1,6 @@
 
 -- SET WIFI INTERFACE --
-			var_WIFI = "wlp2s0" 
+			var_WIFI = "wlp4s0" 
 
 
 --[[
@@ -240,8 +240,8 @@ function conky_main_bars()
 			arg=var_WIFI,
 			max=100,
 			--alarm=30,
-			bg_colour={0xAAAAAA,0.3},
-			fg_colour={0x44AAAA,0.6},
+			bg_colour={0x4444AA,0.9},
+			fg_colour={0x8888EE,0.9},
 			-- alarm_colour={0xFF0000,0},
 			bg_led={0xffffff,0.1},
 			fg_led={0x00D100,0.8},
